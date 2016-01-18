@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('../fonts/DINProMedium.eot');
+    src: url('../fonts/DINProMedium.eot') format('embedded-opentype'),
+         url('../fonts/DINProMedium.woff2') format('woff2'),
+         url('../fonts/DINProMedium.woff') format('woff'),
+         url('../fonts/DINProMedium.ttf') format('truetype'),
+         url('../fonts/DINProMedium.svg#DINProMedium') format('svg');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.pixel {
+  /*position: absolute;
+  top: 0px;
+  left: 0px;*/
+  display: inline-block;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  width: 25px;
+  height: 25px;
+  margin: 3px;
+  cursor:pointer;
+}
+
+.filled {
+  background-color: black;
+}
+
+.grid {
+  display: inline-block;
+  padding: 40px;
+}
+
+.result {
+  font-family: 'DINProMedium';
+  font-size: 26px;
+  line-height: 1.4;
+  display: inline-block;
+  padding-top: 37px;
+  vertical-align: top;
+}

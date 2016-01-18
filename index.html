@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en" ng-app="NeoPixel" data-framework="angularjs">
+	<head>
+		<meta charset="utf-8">
+		<title>NeoPixel</title>
+		<link rel="stylesheet" href="css/index.css">
+		<style>[ng-cloak] { display: none; }</style>
+	</head>
+	<body ng-controller="NeoPixelCtrl">
+		<div style="height:40px"></div>
+			<div class="grid">
+				<div>
+					<div id="1" class="pixel" ng-model="toggle1" ng-class="{'filled' : toggle1}" ng-click="toggle1=!toggle1">
+					</div>
+					<div id="2" class="pixel" ng-model="toggle2" ng-class="{'filled' : toggle2}" ng-click="toggle2=!toggle2">
+					</div>
+					<div id="3" class="pixel" ng-model="toggle3" ng-class="{'filled' : toggle3}" ng-click="toggle3=!toggle3">
+					</div>
+					<div id="4" class="pixel" ng-model="toggle4" ng-class="{'filled' : toggle4}" ng-click="toggle4=!toggle4">
+					</div>
+					<div id="5" class="pixel" ng-model="toggle5" ng-class="{'filled' : toggle5}" ng-click="toggle5=!toggle5">
+					</div>
+					<div id="6" class="pixel" ng-model="toggle6" ng-class="{'filled' : toggle6}" ng-click="toggle6=!toggle6">
+					</div>
+					<div id="7" class="pixel" ng-model="toggle7" ng-class="{'filled' : toggle7}" ng-click="toggle7=!toggle7">
+					</div>
+					<div id="8" class="pixel" ng-model="toggle8" ng-class="{'filled' : toggle8}" ng-click="toggle8=!toggle8">
+					</div>
+				</div>
+				<div >
+					<div id="9" class="pixel" ng-model="toggle9" ng-class="{'filled' : toggle9}" ng-click="toggle9=!toggle9">
+					</div>
+					<div id="10" class="pixel" ng-model="toggle10" ng-class="{'filled' : toggle10}" ng-click="toggle10=!toggle10">
+					</div>
+					<div id="11" class="pixel" ng-model="toggle11" ng-class="{'filled' : toggle11}" ng-click="toggle11=!toggle11">
+					</div>
+					<div id="12" class="pixel" ng-model="toggle12" ng-class="{'filled' : toggle12}" ng-click="toggle12=!toggle12">
+					</div>
+					<div id="13" class="pixel" ng-model="toggle13" ng-class="{'filled' : toggle13}" ng-click="toggle13=!toggle13">
+					</div>
+					<div id="14" class="pixel" ng-model="toggle14" ng-class="{'filled' : toggle14}" ng-click="toggle14=!toggle14">
+					</div>
+					<div id="15" class="pixel" ng-model="toggle15" ng-class="{'filled' : toggle15}" ng-click="toggle15=!toggle15">
+					</div>
+					<div id="16" class="pixel" ng-model="toggle16" ng-class="{'filled' : toggle16}" ng-click="toggle16=!toggle16">
+					</div>
+				</div>
+				<div >
+					<div id="17" class="pixel" ng-model="toggle17" ng-class="{'filled' : toggle17}" ng-click="toggle17=!toggle17">
+					</div>
+					<div id="18" class="pixel" ng-model="toggle18" ng-class="{'filled' : toggle18}" ng-click="toggle18=!toggle18">
+					</div>
+					<div id="19" class="pixel" ng-model="toggle19" ng-class="{'filled' : toggle19}" ng-click="toggle19=!toggle19">
+					</div>
+					<div id="20" class="pixel" ng-model="toggle20" ng-class="{'filled' : toggle20}" ng-click="toggle20=!toggle20">
+					</div>
+					<div id="21" class="pixel" ng-model="toggle21" ng-class="{'filled' : toggle21}" ng-click="toggle21=!toggle21">
+					</div>
+					<div id="22" class="pixel" ng-model="toggle22" ng-class="{'filled' : toggle22}" ng-click="toggle22=!toggle22">
+					</div>
+					<div id="23" class="pixel" ng-model="toggle23" ng-class="{'filled' : toggle23}" ng-click="toggle23=!toggle23">
+					</div>
+					<div id="24" class="pixel" ng-model="toggle24" ng-class="{'filled' : toggle24}" ng-click="toggle24=!toggle24">
+					</div>
+				</div>
+				<div >
+					<div id="25" class="pixel" ng-model="toggle25" ng-class="{'filled' : toggle25}" ng-click="toggle25=!toggle25">
+					</div>
+					<div id="26" class="pixel" ng-model="toggle26" ng-class="{'filled' : toggle26}" ng-click="toggle26=!toggle26">
+					</div>
+					<div id="27" class="pixel" ng-model="toggle27" ng-class="{'filled' : toggle27}" ng-click="toggle27=!toggle27">
+					</div>
+					<div id="28" class="pixel" ng-model="toggle28" ng-class="{'filled' : toggle28}" ng-click="toggle28=!toggle28">
+					</div>
+					<div id="29" class="pixel" ng-model="toggle29" ng-class="{'filled' : toggle29}" ng-click="toggle29=!toggle29">
+					</div>
+					<div id="30" class="pixel" ng-model="toggle30" ng-class="{'filled' : toggle30}" ng-click="toggle30=!toggle30">
+					</div>
+					<div id="31" class="pixel" ng-model="toggle31" ng-class="{'filled' : toggle31}" ng-click="toggle31=!toggle31">
+					</div>
+					<div id="32" class="pixel" ng-model="toggle32" ng-class="{'filled' : toggle32}" ng-click="toggle32=!toggle32">
+					</div>
+				</div>
+				<div >
+					<div id="33" class="pixel" ng-model="toggle33" ng-class="{'filled' : toggle33}" ng-click="toggle33=!toggle33">
+					</div>
+					<div id="34" class="pixel" ng-model="toggle34" ng-class="{'filled' : toggle34}" ng-click="toggle34=!toggle34">
+					</div>
+					<div id="35" class="pixel" ng-model="toggle35" ng-class="{'filled' : toggle35}" ng-click="toggle35=!toggle35">
+					</div>
+					<div id="36" class="pixel" ng-model="toggle36" ng-class="{'filled' : toggle36}" ng-click="toggle36=!toggle36">
+					</div>
+					<div id="37" class="pixel" ng-model="toggle37" ng-class="{'filled' : toggle37}" ng-click="toggle37=!toggle37">
+					</div>
+					<div id="38" class="pixel" ng-model="toggle38" ng-class="{'filled' : toggle38}" ng-click="toggle38=!toggle38">
+					</div>
+					<div id="39" class="pixel" ng-model="toggle39" ng-class="{'filled' : toggle39}" ng-click="toggle39=!toggle39">
+					</div>
+					<div id="40" class="pixel" ng-model="toggle40" ng-class="{'filled' : toggle40}" ng-click="toggle40=!toggle40">
+					</div>
+				</div>
+				<div >
+					<div id="41" class="pixel" ng-model="toggle41" ng-class="{'filled' : toggle41}" ng-click="toggle41=!toggle41">
+					</div>
+					<div id="42" class="pixel" ng-model="toggle42" ng-class="{'filled' : toggle42}" ng-click="toggle42=!toggle42">
+					</div>
+					<div id="43" class="pixel" ng-model="toggle43" ng-class="{'filled' : toggle43}" ng-click="toggle43=!toggle43">
+					</div>
+					<div id="44" class="pixel" ng-model="toggle44" ng-class="{'filled' : toggle44}" ng-click="toggle44=!toggle44">
+					</div>
+					<div id="45" class="pixel" ng-model="toggle45" ng-class="{'filled' : toggle45}" ng-click="toggle45=!toggle45">
+					</div>
+					<div id="46" class="pixel" ng-model="toggle46" ng-class="{'filled' : toggle46}" ng-click="toggle46=!toggle46">
+					</div>
+					<div id="47" class="pixel" ng-model="toggle47" ng-class="{'filled' : toggle47}" ng-click="toggle47=!toggle47">
+					</div>
+					<div id="48" class="pixel" ng-model="toggle48" ng-class="{'filled' : toggle48}" ng-click="toggle48=!toggle48">
+					</div>
+				</div>
+				<div >
+					<div id="49" class="pixel" ng-model="toggle49" ng-class="{'filled' : toggle49}" ng-click="toggle49=!toggle49">
+					</div>
+					<div id="50" class="pixel" ng-model="toggle50" ng-class="{'filled' : toggle50}" ng-click="toggle50=!toggle50">
+					</div>
+					<div id="51" class="pixel" ng-model="toggle51" ng-class="{'filled' : toggle51}" ng-click="toggle51=!toggle51">
+					</div>
+					<div id="52" class="pixel" ng-model="toggle52" ng-class="{'filled' : toggle52}" ng-click="toggle52=!toggle52">
+					</div>
+					<div id="53" class="pixel" ng-model="toggle53" ng-class="{'filled' : toggle53}" ng-click="toggle53=!toggle53">
+					</div>
+					<div id="54" class="pixel" ng-model="toggle54" ng-class="{'filled' : toggle54}" ng-click="toggle54=!toggle54">
+					</div>
+					<div id="55" class="pixel" ng-model="toggle55" ng-class="{'filled' : toggle55}" ng-click="toggle55=!toggle55">
+					</div>
+					<div id="56" class="pixel" ng-model="toggle56" ng-class="{'filled' : toggle56}" ng-click="toggle56=!toggle56">
+					</div>
+				</div>
+				<div >
+					<div id="57" class="pixel" ng-model="toggle57" ng-class="{'filled' : toggle57}" ng-click="toggle57=!toggle57">
+					</div>
+					<div id="58" class="pixel" ng-model="toggle58" ng-class="{'filled' : toggle58}" ng-click="toggle58=!toggle58">
+					</div>
+					<div id="59" class="pixel" ng-model="toggle59" ng-class="{'filled' : toggle59}" ng-click="toggle59=!toggle59">
+					</div>
+					<div id="60" class="pixel" ng-model="toggle60" ng-class="{'filled' : toggle60}" ng-click="toggle60=!toggle60">
+					</div>
+					<div id="61" class="pixel" ng-model="toggle61" ng-class="{'filled' : toggle61}" ng-click="toggle61=!toggle61">
+					</div>
+					<div id="62" class="pixel" ng-model="toggle62" ng-class="{'filled' : toggle62}" ng-click="toggle62=!toggle62">
+					</div>
+					<div id="63" class="pixel" ng-model="toggle63" ng-class="{'filled' : toggle63}" ng-click="toggle63=!toggle63">
+					</div>
+					<div id="64" class="pixel" ng-model="toggle64" ng-class="{'filled' : toggle64}" ng-click="toggle64=!toggle64">
+					</div>
+				</div>
+			</div>
+			<div class="result">
+				{
+				{{toggle1 | true_false}},
+				{{toggle2 | true_false}},
+				{{toggle3 | true_false}},
+				{{toggle4 | true_false}},
+				{{toggle5 | true_false}},
+				{{toggle6 | true_false}},
+				{{toggle7 | true_false}},
+				{{toggle8 | true_false}}
+				},	</br>
+				{
+				{{toggle9 | true_false}},
+				{{toggle10 | true_false}},
+				{{toggle11 | true_false}},
+				{{toggle12 | true_false}},
+				{{toggle13 | true_false}},
+				{{toggle14 | true_false}},
+				{{toggle15 | true_false}},
+				{{toggle16 | true_false}}
+				},	</br>
+				{
+				{{toggle17 | true_false}},
+				{{toggle18 | true_false}},
+				{{toggle19 | true_false}},
+				{{toggle20 | true_false}},
+				{{toggle21 | true_false}},
+				{{toggle22 | true_false}},
+				{{toggle23 | true_false}},
+				{{toggle24 | true_false}}
+				},	</br>
+				{
+				{{toggle25 | true_false}},
+				{{toggle26 | true_false}},
+				{{toggle27 | true_false}},
+				{{toggle28 | true_false}},
+				{{toggle29 | true_false}},
+				{{toggle30 | true_false}},
+				{{toggle31 | true_false}},
+				{{toggle32 | true_false}}
+				},	</br>
+				{
+				{{toggle33 | true_false}},
+				{{toggle34 | true_false}},
+				{{toggle35 | true_false}},
+				{{toggle36 | true_false}},
+				{{toggle37 | true_false}},
+				{{toggle38 | true_false}},
+				{{toggle39 | true_false}},
+				{{toggle40 | true_false}}
+				},	</br>
+				{
+				{{toggle41 | true_false}},
+				{{toggle42 | true_false}},
+				{{toggle43 | true_false}},
+				{{toggle44 | true_false}},
+				{{toggle45 | true_false}},
+				{{toggle46 | true_false}},
+				{{toggle47 | true_false}},
+				{{toggle48 | true_false}}
+				},	</br>
+				{
+				{{toggle49 | true_false}},
+				{{toggle50 | true_false}},
+				{{toggle51 | true_false}},
+				{{toggle52 | true_false}},
+				{{toggle53 | true_false}},
+				{{toggle54 | true_false}},
+				{{toggle55 | true_false}},
+				{{toggle56 | true_false}}
+				},	</br>
+				{
+				{{toggle57 | true_false}},
+				{{toggle58 | true_false}},
+				{{toggle59 | true_false}},
+				{{toggle60 | true_false}},
+				{{toggle61 | true_false}},
+				{{toggle62 | true_false}},
+				{{toggle63 | true_false}},
+				{{toggle64 | true_false}}
+				}	</br>
+			</div>
+
+		<!-- JAVASCRIPT -->
+		<script src="node_modules/angular/angular.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers/NeoPixelCtrl.js"></script>
+		<script type="text/javascript" src="/js/live.js"></script>
+	</body>
+</html>
