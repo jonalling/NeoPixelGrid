@@ -1,7 +1,11 @@
 # NeoPixelGrid
-A helper page to graphically draw pixel images, and generate a copy-able matrix to paste into an Arduino Sketch.
+A helper page to graphically draw pixel images, and generate a copy-able matrix to paste into an Arduino Sketch for use with Adafruit's NeoMatrix LED panels.
 
 ![alt tag](https://github.com/jonalling/NeoPixelGrid/blob/master/Screen%20Shot%202016-01-18%20at%203.21.03%20PM.png)
+
+This is an example of an Arduino Sketch that draws the pixel image. Reference Adafruit's uberguide for full documentation.
+
+https://learn.adafruit.com/adafruit-neopixel-uberguide/neomatrix-library
 
 ```
 #include <Adafruit_GFX.h>
